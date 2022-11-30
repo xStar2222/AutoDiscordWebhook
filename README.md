@@ -4,7 +4,7 @@ Set a timer to send a Discord Webhook every (x) seconds!
 
 **Automated Discord Webhook Sender**
 
-1) Adjust settings.json to your Webhook
+1.) Adjust settings.json to your Webhook
 
 2.) Adjust Discord Webhook message
 
