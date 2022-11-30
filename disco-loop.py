@@ -7,6 +7,7 @@ import time
 with open("settings.json") as f:
     settings = json.load(f)
 
+#Customize Webhook
 def main():
     webhook = DiscordWebhook(url=settings['discordWebhook'])
     embed = DiscordEmbed()
@@ -19,6 +20,7 @@ def main():
     responce = webhook.execute()
     return
 
+#Repeat The Webhook
 while True:
     print("Starting Loop")
     main()
